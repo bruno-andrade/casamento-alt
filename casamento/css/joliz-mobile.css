@@ -4496,6 +4496,10 @@ input[type="checkbox"]:checked ~ .dynaform__switch-control:after {
   align-items: center;
   justify-content: space-between;
 }
+.calendar__day.calendar__day--active .calendar__heart{
+  top: 14px;
+  left: 1px;
+}
 .calendar__body {
   display: flex;
   flex-wrap: wrap;
@@ -6259,6 +6263,12 @@ trix-editor em {
   padding: 0;
   margin-bottom: 25px;
 }
+#website-show .website #message .section__sub-header{
+  padding: 0;
+}
+#website-show .website #message .section__content{
+  padding: 0;
+}
 #website-show .website .section__button {
   display: flex;
   position: relative;
@@ -6426,11 +6436,12 @@ trix-editor em {
 }
 #website-show .website #cover h1 {
   font-family: "Abhaya Libre";
-  font-size: 38px;
+  font-size: 42px;
   color: #fff;
   line-height: 40px;
   letter-spacing: 6.17px;
   text-align: center;
+  padding: 0 1rem;
   text-transform: uppercase;
   text-rendering: optimizeLegibility !important;
 }
@@ -6464,7 +6475,7 @@ trix-editor em {
 }
 #website-show .website #cover .section__title {
   padding: 0 20px;
-  margin-bottom: 24px;
+  margin-bottom: 0;
 }
 #website-show .website #cover .section__subtitle {
   padding: 0 20px;
@@ -6826,6 +6837,7 @@ trix-editor em {
   align-items: center;
   justify-content: space-around;
   margin: 0 auto;
+  width: auto;
 }
 #website-show .website #rsvp .section__guests figure {
   display: flex;
@@ -6893,6 +6905,7 @@ trix-editor em {
 #website-show .website #info .section__body {
   display: flex;
   padding: 0 3%;
+  width: auto;
 }
 #website-show .website #info .section__header {
   width: max-content;
@@ -7014,6 +7027,7 @@ trix-editor em {
 #website-show .website #testimonials .section__sub-header {
   margin: 10px auto;
   max-width: 480px;
+  padding: 0;
 }
 #website-show .website #testimonials .section__icon {
   width: 144px;
@@ -7657,4 +7671,8 @@ trix-editor em {
   background-size: 15px 15px;
   height: 15px;
   background-repeat: no-repeat;
+}
+#cover {
+  background: url("/casamento/images/pre/DSC_0985.JPG")
+    no-repeat top center fixed;
 }

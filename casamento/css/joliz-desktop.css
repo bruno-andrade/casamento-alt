@@ -6689,10 +6689,10 @@ trix-editor em {
 }
 #website-show .website #cover h1 {
   font-family: "Abhaya Libre";
-  font-size: 63px;
   color: #f9f9f9;
-  line-height: 60px;
-  letter-spacing: 10px;
+  line-height: 130px !important;
+  letter-spacing: 8px !important;
+  font-size: 115px !important;
   text-align: left;
   text-transform: uppercase;
   text-rendering: optimizeLegibility !important;
@@ -7943,4 +7943,8 @@ trix-editor em {
   background-size: 15px 15px;
   height: 15px;
   background-repeat: no-repeat;
+}
+#cover {
+  background: url("/casamento/images/pre/IMG_5515.JPG")
+    no-repeat top center fixed;
 }
