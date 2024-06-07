@@ -6475,7 +6475,7 @@ trix-editor em {
 }
 #website-show .website #cover .section__title {
   padding: 0 20px;
-  margin-bottom: 0;
+  margin-bottom: 25px;
 }
 #website-show .website #cover .section__subtitle {
   padding: 0 20px;
@@ -7671,8 +7671,4 @@ trix-editor em {
   background-size: 15px 15px;
   height: 15px;
   background-repeat: no-repeat;
-}
-#cover {
-  background: url("/casamento/images/pre/DSC_0985.JPG")
-    no-repeat top center fixed;
 }

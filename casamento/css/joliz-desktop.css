@@ -6684,15 +6684,15 @@ trix-editor em {
 }
 #website-show .website #cover {
   height: 100vh;
-  background-size: cover !important;
+  background-size: cover;
   background-color: #fff;
 }
 #website-show .website #cover h1 {
   font-family: "Abhaya Libre";
   color: #f9f9f9;
-  line-height: 130px !important;
-  letter-spacing: 8px !important;
-  font-size: 115px !important;
+  line-height: 130px;
+  letter-spacing: 8px;
+  font-size: 115px;
   text-align: left;
   text-transform: uppercase;
   text-rendering: optimizeLegibility !important;
@@ -7944,7 +7944,13 @@ trix-editor em {
   height: 15px;
   background-repeat: no-repeat;
 }
+
 #cover {
-  background: url("/casamento/images/pre/IMG_5515.JPG")
-    no-repeat top center fixed;
+  background: url("/casamento/images/pre/DSC_0985.JPG") no-repeat top center fixed;
+}
+
+@media (min-width: 900px) {
+  #cover {
+    background: url("/casamento/images/pre/IMG_5515.JPG") no-repeat top center fixed;
+  }
 }
