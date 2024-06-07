@@ -6430,8 +6430,8 @@ trix-editor em {
   display: none;
 }
 #website-show .website #cover {
-  height: 115vw;
-  background-size: contain;
+  height: 90vh;
+  background-size: cover;
   background-color: #fff;
 }
 #website-show .website #cover h1 {
@@ -6464,7 +6464,7 @@ trix-editor em {
   display: flex;
   justify-content: center;
   position: absolute;
-  top: auto;
+  top: 130px;
   left: 0;
   right: 0;
   bottom: 0;
