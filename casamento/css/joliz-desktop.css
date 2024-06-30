@@ -4425,7 +4425,7 @@ input[type="checkbox"]:checked ~ .dynaform__switch-control:after {
   color: #062538;
 }
 .calendar::before {
-  content: "";
+  /* content: ""; */
   display: block;
   position: absolute;
   top: 10%;
@@ -4459,7 +4459,7 @@ input[type="checkbox"]:checked ~ .dynaform__switch-control:after {
   width: max-content;
 }
 .calendar__starts-at:before {
-  content: "";
+  /* content: ""; */
   position: absolute;
   top: 50%;
   left: auto;
@@ -6709,7 +6709,7 @@ trix-editor em {
   background: linear-gradient(
     to bottom,
     rgba(255, 255, 255, 0),
-    rgba(0, 0, 0, 0.25)
+    rgba(0, 0, 0, 0.75)
   );
 }
 #website-show .website #cover .section__container {
@@ -6934,7 +6934,7 @@ trix-editor em {
   margin: 0 auto;
 }
 #website-show .website #countdown .section__block--minutes:after {
-  content: ":";
+  /* content: ":"; */
   position: absolute;
   position: relative !important;
   top: -55px;
@@ -7946,7 +7946,7 @@ trix-editor em {
 }
 
 #cover {
-  background: url("/casamento/images/pre/DSC_0985.JPG") no-repeat top center fixed;
+  background: url("/casamento/images/cover.png") no-repeat top center fixed;
 }
 
 @media (min-width: 900px) {

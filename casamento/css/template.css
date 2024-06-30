@@ -23,17 +23,17 @@
       format("truetype");
 }
 #website-show .website h2 {
-  font-family: "Illusias";
+  font-family: "Allura", cursive !important;
   font-size: 55px;
-  color: #7c5b38;
+  color: #c06b67;
   /* color: #d6d8c6; */
   line-height: 46px;
 }
 #website-show .website figcaption,
 #website-show .website h3 {
-  font-family: "Montserrat";
+  font-family: 'Arima Madurai', system-ui;
   font-size: 19px;
-  color: #ae8d8b;
+  color: #c06b67;
   line-height: 35px;
 }
 #website-show .website p,
@@ -41,22 +41,22 @@
   color: #826649;
 }
 #website-show .website .slideshow__marker {
-  background-color: #a87170;
+  background-color: #c06b67;
 }
 #website-show .website .slideshow__marker--active {
   background-color: #fffaf5;
 }
 #website-show .website #navigation {
-  background-color: #f2d8d7;
+  background-color: #f4d7d6;
 }
 #website-show .website #navigation svg {
-  fill: #a87170;
+  fill: #c06b67;
 }
 #website-show .website #navigation ul {
-  background-color: #f2d8d7;
+  background-color: #f4d7d6;
 }
 #website-show .website #navigation li {
-  border-color: #ae8d8b;
+  border-color: #c06b67;
 }
 #website-show .website #navigation a,
 #website-show .website #navigation span {
@@ -71,50 +71,52 @@
   background-color: #fff;
 }
 #website-show .website #message h2 {
-  color: #ae8d8b;
+  color: #c06b67;
+  font-family: "Allura", cursive !important;
+  letter-spacing: 0px;
 }
 #website-show .website #message svg {
   fill: #E5C6C4;
 }
 #website-show .website #message .section__overlay--primary {
-  background-image: url("https://assets.festalab.com.br/templates/marriage/rustico-delicado/wedd/pattern01_overlay_top_left.png");
+  background-image: url("/casamento/images/floral.svg");
   background-position: top left;
-  background-size: auto;
+  background-size: contain;
   background-repeat: no-repeat;
 }
 #website-show .website #message .section__overlay--secondary {
-  background-image: url("https://assets.festalab.com.br/templates/marriage/rustico-delicado/wedd/pattern01_overlay_secondary_top_left.png");
+  background-image: url("/casamento/images/floral.svg");
   background-position: top left;
   background-size: 320px auto;
   background-repeat: no-repeat;
 }
 #website-show .website #countdown p {
-  font-family: Illusias;
+  font-family: "Allura", cursive !important;
 }
 #website-show .website #countdown p,
 #website-show .website #countdown span {
-  color: #ae8d8b;
+  color: #c06b67;
 }
 #website-show .website #countdown .section__block {
-  background-color: #f2d8d7;
+  background-color: #f4d7d6;
 }
 #website-show .website #countdown .section__block:after {
-  color: #ae8d8b;
+  color: #c06b67;
 }
 #website-show .website #about {
   padding-top: 187px;
   padding-bottom: 198px;
-  background-color: #f2d8d7;
+  background-color: #f4d7d6;
 }
 #website-show .website #about figcaption {
-  font-family: "Montserrat";
+  font-family: 'Arima Madurai', system-ui;
   font-size: 19px;
-  color: #7c5b38;
+  color: #c06b67;
   line-height: 38px;
 }
 #website-show .website #about .trix-content div {
   font-size: 15px;
-  color: #7c5b38;
+  color: #c06b67;
   line-height: 36px;
 }
 #website-show .website #about .section__overlay--primary {
@@ -127,84 +129,85 @@
 #website-show .website #rsvp {
   padding-top: 187px;
   padding-bottom: 198px;
-  background-color: #a87170;
+  background-color: rgb(191 72 92 / 75%);
   background-size: 100% auto;
 }
 #website-show .website #rsvp h2 {
-  color: #f2d8d7;
+  color: #f4d7d6;
 }
 #website-show .website #rsvp h3 {
-  color: #f2d8d7;
+  color: #f4d7d6;
 }
 #website-show .website #rsvp p {
-  color: #f2d8d7;
+  color: #f4d7d6;
 }
 #website-show .website #rsvp .section__button {
   background-color: #fffaf5;
 }
 #website-show .website #rsvp .section__guests .section__button {
   background-color: transparent;
-  border-color: #f2d8d7;
+  border-color: #f4d7d6;
 }
 #website-show .website #rsvp .section__guests a,
 #website-show .website #rsvp .section__guests p {
-  color: #f2d8d7;
+  color: #f4d7d6;
 }
 #website-show .website #rsvp .section__guests svg {
   fill: #E5C6C4;
 }
 #website-show .website #rsvp .section__overlay--primary {
-  background-image: url("https://assets.festalab.com.br/templates/marriage/rustico-delicado/wedd/pattern03_overlay_top_right.svg"),
-    url("https://assets.festalab.com.br/templates/marriage/rustico-delicado/wedd/pattern03_overlay_bottom_left.svg");
+  /* background-image: url("https://assets.festalab.com.br/templates/marriage/rustico-delicado/wedd/pattern03_overlay_top_right.svg"),
+    url("https://assets.festalab.com.br/templates/marriage/rustico-delicado/wedd/pattern03_overlay_bottom_left.svg"); */
   background-position: top 28px right, bottom 32px left;
   background-size: auto;
   background-repeat: no-repeat;
 }
 #website-show .website #info {
   padding-top: 160px;
-  padding-bottom: 172px;
+  padding-bottom: 70px;
   background-color: #fff;
 }
 #website-show .website #info h3 {
-  font-family: Illusias;
+  font-family: "Allura", cursive !important;
   color: #E6A6A5;
 }
 #website-show .website #info h5 {
-  color: #7c5b38;
+  color: #c06b67;
 }
 #website-show .website #info svg {
   fill: #E6A6A5;
 }
 #website-show .website #info .section__button {
-  border-color: #7c5b38;
+  border-color: #c06b67;
   background-color: #fffaf5;
 }
 #website-show .website #info .section__button a {
-  color: #7c5b38;
+  color: #c06b67;
 }
 #website-show .website #info .section__button svg {
-  fill: #7c5b38;
+  fill: #c06b67;
 }
 #website-show .website #info .calendar svg {
   fill: #E6A6A5;
 }
 #website-show .website #info .calendar span {
   color: #614222;
+  font-size: 16px;
 }
 #website-show .website #info .calendar:before {
-  background-color: #f2d8d7;
+  background-color: #f4d7d6;
 }
 #website-show .website #info .calendar__month {
-  font-family: "Illusias";
-  font-size: 51px;
+  font-family: "Allura", cursive !important;
+  font-size: 80px;
   font-weight: 400;
-  color: #a87170;
+  color: #c06b67;
 }
 #website-show .website #info .calendar__starts-at span {
-  font-family: "Montserrat";
+  font-family: 'Arima Madurai', system-ui;
   font-size: 18px;
   line-height: 34px;
-  color: #a87170;
+  color: #c06b67;
 }
 #website-show .website #info .calendar__starts-at:before {
   background-color: #efc5c4;
@@ -213,7 +216,7 @@
   color: #fff;
 }
 #website-show .website #info .section__overlay--primary {
-  background-image: url("https://assets.festalab.com.br/templates/marriage/rustico-delicado/wedd/pattern04_overlay_top.png");
+  background-image: url("/casamento/images/floral-flip.svg");
   background-position: top right;
   background-size: 100% auto;
   background-repeat: no-repeat;
@@ -221,22 +224,22 @@
 #website-show .website #store {
   padding-top: 80px;
   padding-bottom: 160px;
-  background-color: #f2d8d7;
+  background-color: #f4d7d6;
 }
 #website-show .website #store h3 {
   font-size: 26px;
   line-height: 36px;
-  color: #7c5b38;
+  color: #c06b67;
 }
 #website-show .website #store .section__button {
-  border-color: #7c5b38;
+  border-color: #c06b67;
   background-color: #fffaf5;
 }
 #website-show .website #store .section__button a {
-  color: #7c5b38;
+  color: #c06b67;
 }
 #website-show .website #store .section__button svg {
-  fill: #7c5b38;
+  fill: #c06b67;
 }
 #website-show .website #store .section__sub-header:before {
   background-color: #eed3bc;
@@ -263,13 +266,13 @@
   background-color: #ffffff;
 }
 #website-show .website #testimonials h2 {
-  color: #ae8d8b;
+  color: #c06b67;
 }
 #website-show .website #testimonials h4 {
-  color: #ae8d8b;
+  color: #c06b67;
 }
 #website-show .website #testimonials p {
-  color: #7c5b38;
+  color: #c06b67;
 }
 #website-show .website #testimonials .section__button {
   background-color: #fffaf5;
@@ -277,7 +280,7 @@
   color: #E6A6A5;
 }
 #website-show .website #testimonials .slideshow__stepper span {
-  background-color: #ae8d8b;
+  background-color: #c06b67;
 }
 #website-show .website #testimonials .slideshow__stepper span svg {
   stroke: #fff;
@@ -298,12 +301,12 @@
   background-color: #fff;
 }
 #website-show .website #gallery h2 {
-  color: #ae8d8b;
+  color: #c06b67;
 }
 #website-show .website #gallery figcaption {
-  font-family: Montserrat;
+  font-family: 'Arima Madurai', system-ui;
   font-size: 22px;
-  color: #ae8d8b;
+  color: #c06b67;
 }
 #website-show .website #gallery .section__overlay--primary {
   background-image: url("https://assets.festalab.com.br/templates/marriage/rustico-delicado/wedd/pattern07_overlay_bottom_left.png");
@@ -314,28 +317,28 @@
 #website-show .website #tips {
   padding-top: 80px;
   padding-bottom: 110px;
-  background-color: #f2d8d7;
+  background-color: #f4d7d6;
 }
 #website-show .website #tips h4 {
-  color: #7c5b38;
+  color: #c06b67;
 }
 #website-show .website #tips h5 {
-  color: #7c5b38;
+  color: #c06b67;
 }
 #website-show .website #tips p {
-  color: #7c5b38;
+  color: #c06b67;
 }
 #website-show .website #tips .section__button {
-  background-color: #f2d8d7;
-  color: #ae8d8b;
-  border: 1px solid #ae8d8b;
+  background-color: #f4d7d6;
+  color: #c06b67;
+  border: 1px solid #c06b67;
   box-shadow: none;
 }
 #website-show .website #tips .section__button:hover {
-  background-color: #ae8d8b;
+  background-color: #c06b67;
 }
 #website-show .website #tips .slideshow__stepper svg {
-  stroke: #7c5b38;
+  stroke: #c06b67;
 }
 #website-show .website #tips .section__overlay--primary {
   top: -200px;
@@ -353,14 +356,14 @@
   background-repeat: no-repeat;
 }
 #website-show .website #thank-you {
-  padding-top: 172px;
-  padding-bottom: 192px;
-  background-color: #a87170;
+  padding-top: 0;
+  padding-bottom: 0;
+  background-color: rgb(191 72 92 / 75%);
 }
 #website-show .website #thank-you h2,
 #website-show .website #thank-you h3,
 #website-show .website #thank-you p {
-  color: #f2d8d7;
+  color: #f4d7d6;
 }
 #website-show .website #thank-you figure {
   color: #fff9d0;
@@ -372,14 +375,15 @@
   fill: #E6A6A5;
 }
 #website-show .website #thank-you .section__guests {
-  background-color: #f2d8d7;
+  background-color: #f4d7d6;
 }
 #website-show .website #thank-you .section__overlay--primary {
-  background-image: url("https://assets.festalab.com.br/templates/marriage/rustico-delicado/wedd/pattern09_overlay_top_left.svg"),
-    url("https://assets.festalab.com.br/templates/marriage/rustico-delicado/wedd/pattern09_overlay_bottom_right.svg ");
-  background-position: top 18px left, bottom 64px right;
-  background-size: auto;
+  background-image: url("/casamento/images/footer-img.png");
+  background-position: bottom;
+  background-size: cover;
   background-repeat: no-repeat;
+  width: 100%;
+  padding-top: 106%;
 }
 @media (min-width: 960px) {
   #website-show .website h2 {
@@ -550,6 +554,6 @@
   }
 }
 #modal_rsvp .modal__header {
-  background-color: #7c5b38;
-  border-bottom: 2px solid #f2d8d7;
+  background-color: #c06b67;
+  border-bottom: 2px solid #f4d7d6;
 }

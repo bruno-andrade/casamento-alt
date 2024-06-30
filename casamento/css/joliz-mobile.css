@@ -4472,7 +4472,7 @@ input[type="checkbox"]:checked ~ .dynaform__switch-control:after {
 .calendar {
   position: relative;
   margin-bottom: 19px;
-  width: 240px;
+  width: 350px;
 }
 .calendar svg {
   fill: #c4c4c4;
@@ -4481,7 +4481,7 @@ input[type="checkbox"]:checked ~ .dynaform__switch-control:after {
   color: #062538;
 }
 .calendar::before {
-  content: "";
+  /* content: ""; */
   display: block;
   position: absolute;
   top: 8%;
@@ -4495,6 +4495,7 @@ input[type="checkbox"]:checked ~ .dynaform__switch-control:after {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 22px;
 }
 .calendar__day.calendar__day--active .calendar__heart{
   top: 14px;
@@ -4518,7 +4519,7 @@ input[type="checkbox"]:checked ~ .dynaform__switch-control:after {
   width: max-content;
 }
 .calendar__starts-at:before {
-  content: "";
+  /* content: ""; */
   position: absolute;
   top: -50%;
   left: auto;
@@ -4547,7 +4548,7 @@ input[type="checkbox"]:checked ~ .dynaform__switch-control:after {
 .calendar__week span {
   flex: 1 1 14.28%;
   font-family: "Gotham Rounded";
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 600;
   text-transform: uppercase;
   text-align: center;
@@ -4558,7 +4559,7 @@ input[type="checkbox"]:checked ~ .dynaform__switch-control:after {
   height: 13px;
   margin-bottom: 14px;
   font-family: "Gotham Rounded Light";
-  font-size: 11px;
+  font-size: 18px;
   text-align: center;
 }
 .calendar__day--active {
@@ -6201,14 +6202,14 @@ trix-editor em {
   line-height: 34px;
 }
 #website-show .website h5 {
-  font-family: "Gotham Rounded";
+  font-family: 'Arima Madurai', system-ui;
   color: #000;
   font-size: 18px;
   font-weight: 500;
   line-height: 34px;
 }
 #website-show .website p {
-  font-family: "Gotham Rounded Book";
+  font-family: 'Arima Madurai', system-ui;
   font-size: 15px;
   color: #000;
   line-height: 34px;
@@ -6457,7 +6458,7 @@ trix-editor em {
   background: linear-gradient(
     to bottom,
     rgba(255, 255, 255, 0),
-    rgba(0, 0, 0, 0.8)
+    rgba(0, 0, 0, 0.25)
   );
 }
 #website-show .website #cover .section__container {
@@ -6659,7 +6660,7 @@ trix-editor em {
   justify-content: space-between;
   width: 216px;
   margin: 0 auto;
-  padding-top: 60px;
+  padding-top: 80px;
 }
 #website-show .website #countdown .section__block {
   display: flex;
@@ -6688,7 +6689,7 @@ trix-editor em {
   margin: 0 auto;
 }
 #website-show .website #countdown .section__block--minutes:after {
-  content: ":";
+  /* content: ":"; */
   position: absolute;
   position: relative !important;
   top: -43px;
@@ -6882,17 +6883,17 @@ trix-editor em {
   padding: 0;
 }
 #website-show .website #info h3 {
-  font-size: 30px;
+  font-size: 50px;
   line-height: 32px;
   text-align: left;
 }
 #website-show .website #info h5 {
-  font-size: 12px;
+  font-size: 16px;
   line-height: 20px;
   font-weight: 600;
 }
 #website-show .website #info p {
-  font-size: 12px;
+  font-size: 14px;
   line-height: 20px;
   text-align: left;
 }
@@ -6925,8 +6926,8 @@ trix-editor em {
   max-width: calc(100% - 50px);
 }
 #website-show .website #info .section__calendar {
-  width: 240px;
-  margin: 0 auto 30px auto;
+  width: 350px;
+  margin: 0 auto 0 auto;
 }
 #website-show .website #info .section__calendar-empty {
   display: flex;
@@ -6956,10 +6957,12 @@ trix-editor em {
   display: flex;
   flex-direction: column;
   margin: auto auto 32px 64px;
+  row-gap: 1rem;
 }
 #website-show .website #info .section__subtitle {
   width: 100%;
   margin: 0;
+
 }
 #website-show .website #info .section__map {
   min-width: 288px;
@@ -6971,7 +6974,7 @@ trix-editor em {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.19);
 }
 #website-show .website #info .section__buttons {
-  margin-top: 20px;
+  margin-top: 40px;
 }
 #website-show .website #info .section__button {
   max-width: 225px;
