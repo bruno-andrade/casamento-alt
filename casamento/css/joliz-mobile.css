@@ -6434,6 +6434,7 @@ trix-editor em {
   height: 90vh;
   background-size: cover;
   background-color: #fff;
+  width: 100vw;
 }
 #website-show .website #cover h1 {
   font-family: "Abhaya Libre";
@@ -6969,6 +6970,7 @@ trix-editor em {
   max-width: 512px;
   width: 96%;
   height: 185px;
+  margin-top: 30px;
 }
 #website-show .website #info .section__map iframe {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.19);
