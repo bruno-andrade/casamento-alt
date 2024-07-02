@@ -104,8 +104,8 @@
   color: #c06b67;
 }
 #website-show .website #about {
-  padding-top: 187px;
-  padding-bottom: 198px;
+  padding-top: 85px;
+  padding-bottom: 115px;
   background-color: #f4d7d6;
 }
 #website-show .website #about figcaption {
@@ -113,6 +113,14 @@
   font-size: 19px;
   color: #c06b67;
   line-height: 38px;
+}
+#about .section__description h5{
+  text-align: center;
+
+}
+#about .section__description p{
+  margin: 20px 0;
+
 }
 #website-show .website #about .trix-content div {
   font-size: 15px;
@@ -127,8 +135,8 @@
   background-repeat: no-repeat;
 }
 #website-show .website #rsvp {
-  padding-top: 187px;
-  padding-bottom: 198px;
+  padding-top: 130px;
+  padding-bottom: 80px;
   background-color: rgb(191 72 92 / 75%);
   background-size: 100% auto;
 }
@@ -289,8 +297,8 @@
   fill: #E6A6A5;
 }
 #website-show .website #testimonials .section__overlay--primary {
-  background-image: url("https://assets.festalab.com.br/templates/marriage/rustico-delicado/wedd/pattern06_overlay_top_right.png"),
-    url("https://assets.festalab.com.br/templates/marriage/rustico-delicado/wedd/pattern06_overlay_bottom_right.svg ");
+  /* background-image: url("https://assets.festalab.com.br/templates/marriage/rustico-delicado/wedd/pattern06_overlay_top_right.png"), */
+    /* url("https://assets.festalab.com.br/templates/marriage/rustico-delicado/wedd/pattern06_overlay_bottom_right.svg "); */
   background-position: top right, bottom right;
   background-size: 320px auto, auto;
   background-repeat: no-repeat;
@@ -556,4 +564,25 @@
 #modal_rsvp .modal__header {
   background-color: #c06b67;
   border-bottom: 2px solid #f4d7d6;
+}
+.casa-vieira{
+  background-size: contain;
+  width: 100%;
+  margin-top: 2rem;
+  padding: 0 1rem;
+}
+
+.section__header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+.section__header span svg {
+  fill: #E5C6C4 !important;
+  height: 12px;
+  width: 16px !important;
+}
+.section__header span{
+  font-size: 14px;
 }

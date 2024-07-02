@@ -4472,7 +4472,8 @@ input[type="checkbox"]:checked ~ .dynaform__switch-control:after {
 .calendar {
   position: relative;
   margin-bottom: 19px;
-  width: 350px;
+  width: auto;
+  margin-right: 20px;
 }
 .calendar svg {
   fill: #c4c4c4;
@@ -6816,6 +6817,7 @@ trix-editor em {
 }
 #website-show .website #rsvp .section__sub-header {
   margin-bottom: 44px;
+  margin-top: 60px;
 }
 #website-show .website #rsvp .section__panel {
   display: flex;
@@ -6828,7 +6830,7 @@ trix-editor em {
   flex-direction: column;
   align-items: center;
   width: 100%;
-  margin: 0 auto 50px auto;
+  margin: 30px auto 0 auto;
 }
 #website-show .website #rsvp .section__rsvp-edit {
   width: 100%;
@@ -7030,7 +7032,7 @@ trix-editor em {
   margin: 0 auto 30px;
 }
 #website-show .website #testimonials .section__sub-header {
-  margin: 10px auto;
+  margin: 70px auto;
   max-width: 480px;
   padding: 0;
 }
