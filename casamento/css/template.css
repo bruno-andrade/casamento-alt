@@ -586,3 +586,7 @@
 .section__header span{
   font-size: 14px;
 }
+
+#cover {
+  background: url(/casamento/images/cover.png) no-repeat top center fixed;
+}

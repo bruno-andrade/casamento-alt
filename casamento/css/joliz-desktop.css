@@ -7946,11 +7946,15 @@ trix-editor em {
 }
 
 #cover {
-  background: url("/casamento/images/cover.png") no-repeat top center fixed;
+  background: url(/casamento/images/cover.png) no-repeat top center fixed;
+  -webkit-background-size: cover; /* Ensures compatibility with Safari */
+  background-size: cover;
 }
 
 @media (min-width: 900px) {
   #cover {
     background: url("/casamento/images/pre/IMG_5515.JPG") no-repeat top center fixed;
+    -webkit-background-size: cover; /* Ensures compatibility with Safari */
+    background-size: cover;
   }
 }
