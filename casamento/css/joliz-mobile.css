@@ -4473,7 +4473,6 @@ input[type="checkbox"]:checked ~ .dynaform__switch-control:after {
   position: relative;
   margin-bottom: 19px;
   width: auto;
-  margin-right: 20px;
 }
 .calendar svg {
   fill: #c4c4c4;
