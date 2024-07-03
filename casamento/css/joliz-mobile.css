@@ -6435,7 +6435,8 @@ trix-editor em {
   height: 90vh;
   background-size: cover;
   background-color: #fff;
-  width: 100vw;
+  width: 100%;
+  object-fit: cover;
 }
 #website-show .website #cover h1 {
   font-family: "Abhaya Libre";
