@@ -38,7 +38,7 @@
 }
 #website-show .website p,
 #website-show .website span {
-  color: #826649;
+  color: rgba(192, 107, 103, 0.75);
 }
 #website-show .website .slideshow__marker {
   background-color: #c06b67;
@@ -116,7 +116,7 @@
 }
 #about .section__description h5{
   text-align: center;
-
+  color: rgba(192, 107, 103, 0.75);
 }
 #about .section__description p{
   margin: 20px 0;
@@ -200,7 +200,7 @@
 }
 #website-show .website #info .calendar span {
   color: #614222;
-  font-size: 16px;
+  font-size: 13px;
 }
 #website-show .website #info .calendar:before {
   background-color: #f4d7d6;
@@ -589,4 +589,8 @@
 
 #cover {
   background: url(/casamento/images/cover.png) no-repeat top center fixed;
+}
+
+#website-show .website #cover h1{
+  text-wrap: nowrap;
 }
