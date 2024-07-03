@@ -6430,7 +6430,7 @@ trix-editor em {
     url("/assets/worksans-medium-fe7afd52.ttf") format("truetype");
 }
 #website-show {
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 #website-show .website h2 {
   font-family: "Abhaya Libre";
