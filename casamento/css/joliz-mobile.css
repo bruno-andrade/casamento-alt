@@ -6929,7 +6929,7 @@ trix-editor em {
   max-width: calc(100% - 50px);
 }
 #website-show .website #info .section__calendar {
-  width: 350px;
+  width: 100%;
   margin: 0 auto 0 auto;
 }
 #website-show .website #info .section__calendar-empty {
