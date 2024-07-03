@@ -7156,7 +7156,7 @@ trix-editor em {
 #website-show .website #info .section__header {
   max-width: 160px;
   width: max-content;
-  margin-right: 40px;
+  margin-right: 25px;
 }
 #website-show .website #info .section__header h2 {
   writing-mode: vertical-rl;
@@ -7943,18 +7943,4 @@ trix-editor em {
   background-size: 15px 15px;
   height: 15px;
   background-repeat: no-repeat;
-}
-
-#cover {
-  background: url(/casamento/images/cover.png) no-repeat top center fixed;
-  -webkit-background-size: cover; /* Ensures compatibility with Safari */
-  background-size: cover;
-}
-
-@media (min-width: 900px) {
-  #cover {
-    background: url("/casamento/images/pre/IMG_5515.JPG") no-repeat top center fixed;
-    -webkit-background-size: cover; /* Ensures compatibility with Safari */
-    background-size: cover;
-  }
 }

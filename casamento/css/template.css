@@ -587,10 +587,6 @@
   font-size: 14px;
 }
 
-#cover {
-  background: url(/casamento/images/cover.png) no-repeat top center fixed;
-}
-
 #website-show .website #cover h1{
   text-wrap: nowrap;
 }
