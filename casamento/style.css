@@ -92,7 +92,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
   text-transform: none !important;
   color: #f9f9f9 !important;
   letter-spacing: 0.17px !important;
-  font-size: 82px !important;
+  font-size: 3.5rem !important;
 }
 
 #website-show .website #cover .section__title{
@@ -101,10 +101,10 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 #website-show .website #cover h2 {
   font-family: "Allura", cursive !important;
-  font-size: 34px!important;
-  color: #fff!important;
-  line-height: 34px!important;
-  letter-spacing: 1.18px!important;
+  font-size: 1.8rem !important;
+  color: #fff !important;
+  line-height: 34px !important;
+  letter-spacing: 1px !important;
 }
 
 #newcover{
@@ -113,4 +113,109 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
     background-color: #fff;
     width: 100vw;
     background: url(/casamento/images/cover.png) no-repeat top center fixed;
+}
+
+/* CUSTOM_CSS */
+.header{
+  width: calc(100% - 16px);
+  position: fixed;
+  padding: 0;
+  min-height: 99px;
+  transition: background 0.5s ease 0s;
+  z-index: 100;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  background: rgb(255, 255, 255);
+  border-bottom: 1px solid rgba(192, 107, 103, 0.2);
+  
+}
+.header a p {
+  display: inline;
+  color: unset;
+}
+@media (max-width: 768px) {
+  .header{
+    min-height: 64px;
+  }
+  .header a {
+    font-size: 18px;
+    font-weight: 300;
+    font-stretch: normal;
+    letter-spacing: normal;
+  }
+}
+.header > div{
+  width: 100%;
+  max-width: 1110px;
+  margin: 0px auto;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: center;
+}
+.header a {
+  font-size: 28px;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Allura", cursive !important;
+  margin-top: 0px;
+  color: rgb(192, 107, 103);
+  font-style: normal;
+  font-weight: 400;
+}
+.back-to-top{
+  display: none !important;
+}
+#footer{
+  display: none !important;
+}
+.button.button--primary{
+  background: #f4d7d6!important;
+  border: 1px solid #f4d7d6!important;
+  color: #c06b67!important;
+  border-radius: 8px!important;
+}
+.product{
+  background: snow!important;
+  border-radius: 8px!important;
+  border: transparent!important;
+}
+.product__price{
+  font-size: 14px!important;
+}
+.product__name{
+  font-size: 14px!important;
+}
+main{
+  margin-top: 0 !important;
+}
+.button.button--secondary{
+  border-radius: 8px!important;
+}
+.app-banner{
+  display: none !important;
+}
+.cart__step{
+  border-radius: 8px!important;
+}
+.whatsapp{
+  display: none !important;
+}
+.resume, .buyer-info, .resume div, .payment, .rsvp{
+  background: #fff4f4 !important;
+}
+.text-input input, .gift-card__button, .gift-card--selected, .payment__option, input, .photo-wrapper__photo{
+  border-radius: 8px !important;
+}
+
+iframe{
+  height: 100vh;
+  margin-top: 64px;
 }
