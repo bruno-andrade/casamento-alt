@@ -270,7 +270,7 @@
 }
 #website-show .website #testimonials {
   padding-top: 85px;
-  padding-bottom: 196px;
+  padding-bottom: 0;
   background-color: #ffffff;
 }
 #website-show .website #testimonials h2 {
